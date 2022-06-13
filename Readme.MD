@@ -66,16 +66,34 @@ The data shows for the the each individual lot that lot 1 and 2 meet the require
 
 <img width="533" alt="lot_3_Ttest" src="https://user-images.githubusercontent.com/39811614/173278135-adbce3c5-ade4-4bac-a5e6-3158617d11bf.png">
 
+# Delivery 4 Study Design: MechaCar vs Competition
+
+The statistical study is to compare the performance of the Mechacar vechicles against the competition is necessary to consider this metrics:
+
+cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+
+Possible Hypothesis:
+
+1. Null Hypothesis - Comparable MechaCar vehicles have better safety ratings and cost less than the competition.
+
+2. Alternative Hypothersis - Comparable MechaCar vehicles does not provide better safety ratings and cost more than the competition.
+
+Statistical Test:
+
+I would recommend A/B testing a randomized controlled experiment that uses a control (unchanged) and experimental (changed) group to test potential changes using a success metric. A/B testing is used to test whether or not the distribution of the success metric increases in the experiment group instead of the control group. 
+
+Dataset: 
+
+A safety rating survey and cost data per vehicle for the USA market collected from a large and random not bias group. 
 
 
 ## Resources
 
 - Data Source: MechaCar_mpg.csv and Suspension_coil.csv
-- Data Tools: tidyverse, dplyr, ggplot2 and MechaCarChallenge.RScript
-- Software: Python 3.9.7., Visual Studio Code, R Studio 
-## Results:
 
-## Implications
+- Data Tools: tidyverse, dplyr, ggplot2 and MechaCarChallenge.RScript
+
+- Software: Python 3.9.7., Visual Studio Code, R Studio 
 
 
 
