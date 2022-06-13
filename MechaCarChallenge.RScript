@@ -31,7 +31,7 @@ Multiple R-squared:  0.7149,	Adjusted R-squared:  0.6825
 F-statistic: 22.07 on 5 and 44 DF,  p-value: 5.35e-11
 
 
-## delivery two - Summary Statistics on Suspension Coils
+## Delivery two - Summary Statistics on Suspension Coils
 
 > suspension_data <- read.csv("Suspension_Coil.csv",stringsAsFactors = F, check.names = F)
 
@@ -43,3 +43,14 @@ F-statistic: 22.07 on 5 and 44 DF,  p-value: 5.35e-11
 
 > View(total_summary)
 > View(lot_summary)
+
+## Delivery Three - T-Tests on Suspension Coils
+
+### All lots test 
+t.test(suspension_data$PSI,mu = 1500)
+### Lot 1 test
+t.test(subset(suspension_data,Manufacturing_Lot=="Lot1")$PSI,mu = 1500)
+### Lot 2 test
+t.test(subset(suspension_data,Manufacturing_Lot=="Lot2")$PSI,mu = 1500)
+### Lot 3 test
+t.test(subset(suspension_data,Manufacturing_Lot=="Lot3")$PSI,mu = 1500)
