@@ -22,6 +22,14 @@ Deliverable 4: Design a Study Comparing the MechaCar to the Competition
 
 <img width="578" alt="Delivery1" src="https://user-images.githubusercontent.com/39811614/173270593-23a04fcb-6983-4cce-9799-3f8cbcb94067.png">
 
+## delivery two - Summary Statistics on Suspension Coils
+
+### Total Summary
+<img width="315" alt="Total_summary" src="https://user-images.githubusercontent.com/39811614/173272129-3e2aa74c-10c2-4f8b-b2cb-68e773698bf6.png">
+
+### Lot Summary
+
+<img width="477" alt="Lot_summary" src="https://user-images.githubusercontent.com/39811614/173272184-f878e80c-9dfb-4975-a3d8-15b770a10a33.png">
 
 ## Resources
 
